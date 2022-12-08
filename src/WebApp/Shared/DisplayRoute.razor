@@ -1,0 +1,12 @@
+﻿@code {
+    [Parameter]
+    public string Route { get; set; }
+}
+
+<div class="text-light text-decoration-none d-flex flex-row w-100 route-main">
+    <a href="/" class="d-block route p-2">/</a>
+    @foreach (var r in Route.Split('/'))
+    {
+        <a href="@r" class="d-block route p-2">@r</a>
+    }
+</div>

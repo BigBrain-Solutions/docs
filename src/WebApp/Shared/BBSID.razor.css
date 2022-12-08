@@ -1,0 +1,10 @@
+﻿.message {
+    background-color: #ececec;
+    width: calc(100% - 10em);
+    padding: 1em 1em 1em 1.5em;
+    padding-left: 3em;
+    border-radius: 10px;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
