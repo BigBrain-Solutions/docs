@@ -8,3 +8,18 @@
     line-height: 1.5;
     margin-bottom: 1em;
 }
+
+img {
+    width: 70%;
+}
+
+@media (max-width: 1440px) {
+    img {
+        width: 50%;
+    }
+}
+
+.gh-icon {
+    width: 32px;
+    height: 32px;
+}
